@@ -1,0 +1,125 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 450px;
+    height: 450px;
+    margin: 20px auto;
+    border: 5px solid #333;
+    border-radius: 5px;
+    background-color: rgb(251, 252, 250);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cell {
+    border: 1px solid #ccc;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cell:hover {
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    color: #030303;
+    -webkit-text-stroke: 2px #f30202;
+    text-shadow: 2px #f50101;
+    font-size: 90px;
+    border: 2px solid #333;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.6); /* Cor opaca */
+    
+  }
+  
+  #scoreboard {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 72px;
+    
+  }
+  
+  #scoreboard div {
+    font-family: Arial, sans-serif;
+    margin: 0 50px;
+    border: 5px solid #333;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.6); /* Cor opaca */
+  }
+  
+  #scoreX {
+    color: green;
+  }
+  
+  #scoreO {
+    color: red;
+  }
+  
+  #buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+
+  #restartButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  #restartButton:hover {
+    background-color: #555;
+  }
+
+  #resetScoreButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+  }
+
+  #resetScoreButton:hover {
+    background-color: #555;
+  }
+
+  body {
+    /* Estilos de fundo existentes */
+    position: relative;
+    background-image: url("img/foto.png");
+    background-position: center;
+    background-size: 1920px;
+    
+  }
+  
+
